@@ -6,10 +6,17 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 
-class server_core
+class Server_core
 {
     public:
-        server_core(uint16_t port, uint8_t backlog);
+        Server_core(uint16_t port, uint8_t backlog);
+        
+        uint16_t get_port();
+        void set_port(uint16_t port);
+
+        uint8_t get_backlog();
+        void set_backlog(uint8_t backlog);
+        
     private:
         uint16_t port;
         int sockfd;
