@@ -2,8 +2,6 @@
 #define SERVER_CORE_H
 
 #include <cstdint>
-#include <sys/types.h>
-#include <sys/socket.h>
 #include <netinet/in.h>
 
 class Server_core
