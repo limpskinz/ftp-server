@@ -1,10 +1,10 @@
-*FTP_SERVER
+#FTP_SERVER
 Main function, starts the server running
 
-*SERVER CORE
+#SERVER CORE
 Class which handles all server networking
 
-TODO
+#TODO
 - handle clients
 - sending files
 - ftp protocol commands
